@@ -1,0 +1,53 @@
+/* Header container */
+header {
+  background-color: #20B2AA; /* LightSeaGreen */
+  padding: 20px 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo and title */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 45px;
+  width: 45px;
+  margin-right: 12px;
+  border-radius: 50%;
+}
+
+.site-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #222;
+}
+
+/* Navigation menu */
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px; /* spacing between links */
+  font-size: 24px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 600;
+  padding: 10px 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav a:hover {
+  color: #00796b; /* Teal on hover */
+  transform: scale(1.1);
+}

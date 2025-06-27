@@ -1,0 +1,74 @@
+.contact-page {
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
+  min-height: 100vh;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.contact-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-container h2 {
+  color: #00796b;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.contact-intro {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.contact-details p {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.contact-details a {
+  color: #00796b;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  margin-top: 30px;
+}
+
+.social-media h3 {
+  color: #00796b;
+  margin-bottom: 15px;
+}
+
+.social-media a {
+  font-size: 28px;
+  color: #0077b5; /* LinkedIn */
+  margin: 0 12px;
+  transition: color 0.3s ease;
+}
+
+.social-media a:nth-child(3) {
+  color: #1DA1F2; /* Twitter */
+}
+
+.social-media a:hover {
+  opacity: 0.8;
+}
+
+.response-note {
+  margin-top: 30px;
+  font-style: italic;
+  font-size: 15px;
+}

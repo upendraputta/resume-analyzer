@@ -1,0 +1,144 @@
+/* Page Wrapper */
+.create-resume-page {
+  padding: 50px 20px;
+  background: linear-gradient(to right, #f5f7fa, #e0f2ff);
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Heading */
+.create-resume-page h2 {
+  font-size: 32px;
+  color: #2c3e50;
+  margin-bottom: 40px;
+}
+
+/* Layout Container */
+.resume-container {
+  display: flex;
+  gap: 40px;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Form Styles */
+.resume-form {
+  flex: 1;
+  max-width: 480px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.resume-form input,
+.resume-form textarea,
+.resume-form select {
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: #fafafa;
+}
+
+.resume-form textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.resume-form button {
+  padding: 12px;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.resume-form button:hover {
+  background-color: #2980b9;
+}
+
+/* Resume Preview */
+.resume-preview {
+  flex: 1;
+  background-color: #fff;
+  padding: 40px;
+  width: 794px; /* A4 width for PDF */
+  min-height: 1123px; /* A4 height */
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  font-size: 14px;
+  color: #333;
+}
+
+.resume-preview h1 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.resume-preview h3 {
+  font-size: 18px;
+  color: #3498db;
+  margin-top: 24px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 4px;
+}
+
+.resume-preview p {
+  margin: 6px 0;
+  line-height: 1.6;
+}
+
+.resume-preview section {
+  margin-bottom: 16px;
+}
+
+/* Header with Photo */
+.header-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.profile-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #3498db;
+}
+
+.name-block p {
+  margin: 4px 0;
+}
+
+/* Responsive */
+@media screen and (max-width: 992px) {
+  .resume-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .resume-form,
+  .resume-preview {
+    max-width: 100%;
+    width: 100%;
+  }
+}

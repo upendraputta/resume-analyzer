@@ -1,0 +1,86 @@
+/* Home.css - Light Theme */
+
+.home {
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffffff, #f5f7fa);
+  min-height: 100vh;
+  color: #333;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: #e8f0fe;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #222;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.about-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flow-box {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  animation: fadeIn 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #333;
+}
+
+.flow-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.key-points {
+  list-style: none;
+  padding: 0;
+}
+
+.key-points li {
+  background-color: #e6f4ea;
+  border-left: 5px solid #33af9d;
+  margin-bottom: 12px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #222;
+  transition: background 0.3s;
+}
+
+.key-points li:hover {
+  background-color: #d8f0e1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

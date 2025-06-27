@@ -1,0 +1,128 @@
+.analyze-page {
+  min-height: 100vh;
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.analyze-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  max-width: 1100px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.upload-section,
+.result-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+.upload-section h2,
+.result-section h2 {
+  color: #00796b;
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  margin: 10px 0;
+}
+
+.file-name {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005f56;
+}
+
+button:disabled {
+  background-color: #b2dfdb;
+  cursor: not-allowed;
+}
+
+.error-msg {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.result-box {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 14px;
+  white-space: pre-wrap;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.placeholder-text {
+  color: #666;
+  font-style: italic;
+}
+.success-text {
+  color: #2e7d32;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.clear-button {
+  background-color: #cfd8dc;
+  color: #37474f;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.clear-button:hover {
+  background-color: #b0bec5;
+}
+
+.loading-spinner {
+  margin-top: 15px;
+  font-style: italic;
+  color: #00796b;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 5px 0;
+  color: #37474f;
+}
+
+.result-box pre {
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+}
